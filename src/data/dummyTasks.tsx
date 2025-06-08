@@ -1,0 +1,40 @@
+import type { Task } from '../types/types';
+
+export const dummyTasks: Task[] = [
+  {
+    id: '1',
+    title: 'Create Login Page',
+    description: 'Login page UI with validation',
+    tag: 'Frontend',
+    assignee: 'A',
+    dueDate: '2025-06-10',
+    createdAt: '2025-06-01',
+    createdBy: 'Manager',
+    estimation: '3 points',
+    column: 'Open',
+  },
+  {
+    id: '2',
+    title: 'Setup API Server',
+    description: 'Node.js server setup with Express',
+    tag: 'Backend',
+    assignee: 'B',
+    dueDate: '2025-06-12',
+    createdAt: '2025-06-03',
+    createdBy: 'Lead Dev',
+    estimation: '5 points',
+    column: 'In Progress',
+  },
+  {
+    id: '3',
+    title: 'Design Dashboard',
+    description: 'Figma Design for admin dashboard',
+    tag: 'Design',
+    assignee: 'A',
+    dueDate: '2025-06-15',
+    createdAt: '2025-06-04',
+    createdBy: 'Designer',
+    estimation: '2 points',
+    column: 'Done',
+  },
+];
